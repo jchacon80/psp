@@ -15,6 +15,7 @@ public class Sumador extends Thread {
 		Acumula.acumulador++;
 	}
 	
+	@Override
 	public void run() {
 		for(int i=0; i<cuenta; i++) {
 			try {
